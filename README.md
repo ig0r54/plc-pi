@@ -7,27 +7,27 @@ PLC on Raspberry pi
     sudo apt install libmodbus5 libmodbus-dev
     sudo apt install libmosquitto-dev
   
-## Installing
+## Установка
 
-> The software has been tested on **raspbian**.
+> ПО тестировалось только на **raspbery pi 3 rev B, под raspbian**.
 
-Clone the repository:
+Клонирование директории:
 
     git clone https://github.com/ig0r54/plc-pi.git
 
-Go to the repository:
+Переходим в папку с проектом:
 
     cd plc-pi
 
-Build the program:
+Построение проекта:
 
     make
 
-## Running
+## Запуск
 
-> Currently the program does not take any arguments. The parameters can be adjusted in the beginning of `main.c`.
+> В данный момент программа запускается как приложение, а не как сервис
 
-Run the program:
+Запускаем приложение:
 
     ./plc-pi
 
