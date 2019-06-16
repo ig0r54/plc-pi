@@ -5,3 +5,4 @@ PLC on Raspberry pi
 
 sudo apt updtae
 sudo apt install libmodbus5 libmodbus-dev
+sudo apt install libmosquitto-dev
