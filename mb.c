@@ -65,7 +65,7 @@ int main(void)
 	}
 	
 	// Start modbus-rtu-thread
-	//pthread_create(&id1, NULL, (void *)getModbusData, "RTU");
+	pthread_create(&id1, NULL, (void *)getModbusData, "RTU");
 	
 
 	while (run == 1)
